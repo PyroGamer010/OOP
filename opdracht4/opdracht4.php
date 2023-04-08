@@ -39,15 +39,15 @@ $auto3->verbruik = 9.0;
 
 $auto1string  =        "De merk is " . $auto1->merk . " " . $auto1->type . " en hij is " . $auto1->kleur . " met de kenteken " . $auto1->kenteken; 
 $auto1string  .=       ". De tankihoud daarvan is " . $auto1->tankinhoud . " liter en hij verbuikt " . $auto1->verbruik . " liter per 100 kilometer.";
-$auto1string  .=       "De aantal gereden kilometers is " . $auto1->kilometers . "<br>";
+$auto1string  .=       " De aantal gereden kilometers is " . $auto1->kilometers . "<br>";
 echo $auto1string;
 
 $auto2string  =        "De merk is " . $auto2->merk . " " . $auto2->type . " en hij is " . $auto2->kleur . " met de kenteken " . $auto2->kenteken; 
 $auto2string  .=       ". De tankihoud daarvan is " . $auto2->tankinhoud . " liter en hij verbuikt " . $auto2->verbruik . " liter per 100 kilometer.";
-$auto2string  .=       "De aantal gereden kilometers is " . $auto2->kilometers . "<br>";
+$auto2string  .=       " De aantal gereden kilometers is " . $auto2->kilometers . "<br>";
 echo $auto2string;
 
 $auto3string  =        "De merk is " . $auto3->merk . " " . $auto3->type . " en hij is " . $auto3->kleur . " met de kenteken " . $auto3->kenteken; 
 $auto3string  .=       ". De tankihoud daarvan is " . $auto3->tankinhoud . " liter en hij verbuikt " . $auto3->verbruik . " liter per 100 kilometer.";
-$auto3string  .=       "De aantal gereden kilometers is " . $auto3->kilometers . "<br>";
+$auto3string  .=       " De aantal gereden kilometers is " . $auto3->kilometers . "<br>";
 echo $auto3string;
